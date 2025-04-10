@@ -1,0 +1,61 @@
+body{
+    background-color: gray;
+}
+
+#img1{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#title1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 
+        0 0 2px #ff4d4d,  /* Brilho próximo */
+        0 0 4px #ff4d4d, /* Brilho médio */
+        0 0 8px #ff4d4d, /* Brilho mais intenso */
+        0 0 16px #cc0000, /* Brilho externo */
+        0 0 32px #990000; /* Brilho mais distante */
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 
+        0 0 2px #ff4d4d,  /* Brilho próximo */
+        0 0 4px #ff4d4d, /* Brilho médio */
+        0 0 8px #ff4d4d, /* Brilho mais intenso */
+        0 0 16px #cc0000, /* Brilho externo */
+        0 0 32px #990000; /* Brilho mais distante */
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+.button:hover{
+    cursor: pointer; /*aparecer a "maozinha" quando passar pelo botao*/
+}
+
+.button:active{
+    transform: scale(0.95); /*animacao de dimunuir ao clicar*/
+}
