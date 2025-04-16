@@ -1,0 +1,88 @@
+body {
+   background-color: hsl(0, 0%, 8%)
+}
+
+.info-box {
+   flex-direction: column;
+   width: 300px;
+   height: 600px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+   margin: 20px auto; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: hsl(0, 0%, 12%);
+}
+
+.info-box img {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.tittle {
+   text-shadow: 4px 8px 10px hsl(0, 0%, 20%);
+   margin-top: 30px;
+   font-size: 20px;
+   color:aliceblue;
+   font-family: 'arial';
+   margin-bottom: 10px;
+}
+
+#local {
+   text-shadow: 4px 8px 10px hsl(0, 0%, 20%);
+   font-size: 12px;
+   font-style: bold;
+   font-family: 'arial';
+   color: hsl(75, 94%, 57%);
+   margin-bottom: 25px;
+}
+
+.legenda {
+   margin-top: 2px;
+   color: ivory;
+   font-size: 12px;
+   margin-bottom: 18px;
+}
+
+.clickBox {
+   cursor: pointer;
+   color: ivory;
+   flex-direction: column;
+   width: 250px;
+   height: 35px;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px hsl(0, 5%, 10%);  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: hsl(0, 0%, 20%);
+   font-family: 'arial';
+   font-size: 12px;
+   font-style: bold;
+   margin: 6px auto;
+}
+
+.clickBox:active {
+   transform: scale(0.95);
+   box-shadow: 0 2px 4px hsl(0, 5%, 10%);
+}
+
+.attribution {
+   color: white;
+}
+
+.attribution a {
+   color: hsl(75, 94%, 57%);
+   text-decoration: none;
+ }
+ 
+ .attribution a:hover {
+   color: hsl(200, 80%, 40%);
+   text-decoration: underline;
+ }
